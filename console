@@ -1,0 +1,9 @@
+
+
+let contract;
+
+HelloWorld.deployed().then(instance => contract = instance)
+
+contract.test()
+contract.test1()
+contract.echo("abc")
